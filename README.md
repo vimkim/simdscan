@@ -1,7 +1,7 @@
 # simdscan
 
 [![Crates.io](https://img.shields.io/crates/v/simdscan.svg)](https://crates.io/crates/simdscan)
-[![License: MIT OR Apache-2.0](https://img.shields.io/badge/License-MIT%20OR%20Apache--2.0-blue.svg)](https://github.com/vimkim/simdscan#license)
+[![License: Apache-2.0](https://img.shields.io/badge/Apache--2.0-blue.svg)](https://github.com/vimkim/simdscan#license)
 [![Rust](https://img.shields.io/badge/rust-1.70%2B-orange.svg)](https://www.rust-lang.org/)
 
 A blazingly fast Rust CLI tool that analyzes x86-64 binaries to detect and classify SIMD instructions by their ISA extension. Perfect for performance analysis, compiler optimization verification, and understanding what SIMD features your binaries actually use.
