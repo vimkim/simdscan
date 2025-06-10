@@ -1,0 +1,25 @@
+[package]
+name = "simdscan"
+version = "0.1.0"
+edition = "2021"
+description = "Classify SIMD instructions by ISA extension"
+authors = ["Daehyun Kim <kimdhyungg@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/vimkim/simdscan"
+keywords = ["simd", "assembly", "disassembly", "x86", "cli"]
+categories = ["command-line-utilities", "development-tools"]
+
+[[bin]]
+name = "simdscan"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+serde_yaml = "0.9"
+regex = "1.10"
+anyhow = "1.0"
+lazy_static = "1.4"
+indexmap = { version = "2.0", features = ["serde"] }
